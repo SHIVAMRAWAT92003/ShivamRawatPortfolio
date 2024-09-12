@@ -1,0 +1,113 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  img {
+    max-width: 250px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+  }
+
+  a {
+    width: fit-content;
+    text-decoration: none;
+    color: #222;
+    transition: transform 200ms ease-in-out;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (width >= 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+} */
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Card-like styling for each project */
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--project-card-bg);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  max-width: 300px;
+}
+
+.projectCard img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.projectCard h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.projectCard p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.projectCard a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-top: 15px;
+  transition: transform 200ms ease-in-out;
+}
+
+.projectCard a:hover {
+  transform: scale(1.05);
+}
+
+/* Hover effect for the whole card */
+.projectCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 600px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+}

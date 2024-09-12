@@ -1,0 +1,129 @@
+/* Container for the entire section */
+.container {
+    padding: 60px 20px;
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 1200px;  
+    border-radius: 20px;
+}
+
+/* Styling for the section title */
+.sectionTitle {
+    font-size: 2.8em;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+}
+
+/* Section title underline */
+.sectionTitle::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #3498db;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Container for project cards */
+.projectsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Card design */
+.projectCard {
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 20px;
+    overflow: hidden;
+    width: 340px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* Hover effect to elevate cards */
+.projectCard:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Image within the card */
+.patentImage {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+/* Slight zoom on image hover */
+.projectCard:hover .patentImage {
+    transform: scale(1.05);
+}
+
+/* Container for text inside the card */
+.textContainer {
+    padding: 25px;
+    text-align: center;
+}
+
+/* Patent title styling */
+.patentHeading {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for the patent title */
+.projectCard:hover .patentHeading {
+    color: #3498db; /* Matches the section title underline */
+}
+
+/* Patent description styling */
+.patentDescription {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+    .projectsContainer {
+        justify-content: space-around;
+    }
+
+    .projectCard {
+        width: 320px;
+    }
+}
+
+/* Subtle background gradient to make the section more visually dynamic */
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.1) 0%, rgba(52, 152, 219, 0.05) 100%);
+    z-index: -1;
+}

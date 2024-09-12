@@ -1,0 +1,65 @@
+.skillsRadarContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f9f9f9, #e1e1e1); /* Softer gradient background */
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* More pronounced shadow for depth */
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .skillsRadarContainer:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3); /* Deepen shadow on hover */
+  }
+  
+  .skillsRadarContainer::before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
+    background: rgba(255, 255, 255, 0.1); /* Slightly stronger overlay */
+    border-radius: 50%;
+    z-index: 0;
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for overlay */
+  }
+  
+  .skillsRadarContainer:hover::before {
+    opacity: 0.25; /* More visible overlay on hover */
+  }
+  
+  .skillsRadarTitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    position: relative;
+    z-index: 1;
+    font-family: 'Rubik', sans-serif; /* Modern font */
+    font-weight: 700; /* Bold title */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for text */
+  }
+  
+  .skillsRadarChart {
+    position: relative;
+    z-index: 1;
+    max-width: 100%; /* Ensure chart fits within container */
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .skillsRadarContainer {
+      padding: 15px;
+    }
+  
+    .skillsRadarTitle {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+  }
+  

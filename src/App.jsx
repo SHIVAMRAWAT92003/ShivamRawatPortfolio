@@ -18,7 +18,7 @@ function App() {
       <Skills />
       <Publication/>
       <Contact />
-      <SkillsRadar/>
+      {/* <SkillsRadar/> */}
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 .skillsRadarContainer {
     width: 100%;
-    max-width: 600px;
+    max-width: 370px; /*new chng*/
     margin: 0 auto;
     padding: 20px;
     background: linear-gradient(135deg, #f9f9f9, #e1e1e1); /* Softer gradient background */

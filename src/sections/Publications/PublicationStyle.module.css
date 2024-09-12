@@ -7,13 +7,13 @@
     align-items: center;
     justify-content: center;
     margin: 40px auto;
-    max-width: 1100px;  
+    max-width: 600px;  
     border-radius: 20px;
 }
 
 /* Styling for the section title */
 .sectionTitle {
-    font-size: 2.8em;
+    font-size: 2.4em;
     color: #2c3e50;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -49,7 +49,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
     border-radius: 20px;
     overflow: hidden;
-    width: 340px;
+    width: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;

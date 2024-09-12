@@ -23,6 +23,11 @@
     animation: bounceIn 1.5s ease-in-out; /* Adding an entrance animation */
   }
 
+ .description{
+position: relative;
+left: 60px;
+  text-align: center;
+ }
   /* Cool 3D hover effect with scaling */
   .hero:hover {
     transform: rotateY(20deg) rotateX(10deg) scale(1.05);

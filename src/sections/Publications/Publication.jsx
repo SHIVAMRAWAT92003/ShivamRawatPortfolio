@@ -17,6 +17,7 @@ const Publication = () => {
                         </p>
                     </div>
                 </div>
+                
                 <div className={styles.projectCard}>
                     <img src={pub2} alt="Patent Image" className={styles.patentImage} />
                     <div className={styles.textContainer}>
@@ -26,11 +27,19 @@ const Publication = () => {
                         </p>
                     </div>
                 </div>
-                
-         
-            
-               
             </div>
+
+                <div className={styles.projectCard}>
+                    <img src={pub2} alt="Patent Image" className={styles.patentImage} />
+                    <div className={styles.textContainer}>
+                        <h3 className={styles.patentHeading}>Application No: 202411064032 A</h3>
+                        <p className={styles.patentDescription}>
+                        METHOD FOR DISPENSING SANITARY PADS USING A SMART VENDING MACHINE 
+                        </p>
+                    </div>
+                </div>
+            
+
         </section>
     );
 };

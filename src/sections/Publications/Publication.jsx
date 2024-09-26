@@ -1,3 +1,5 @@
+
+
 import styles from './PublicationStyle.module.css';
 import pub1 from '../../assets/pub1.png';
 import pub2 from '../../assets/pub2.png';
@@ -16,6 +18,14 @@ const Publication = () => {
                         <p className={styles.patentDescription}>
                             Automotive Object Detection WheelChair for Animals
                         </p>
+                        <a 
+                            href="https://example.com/patent1" 
+                            className={styles.patentLink} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            View More
+                        </a>
                     </div>
                 </div>
                 
@@ -24,23 +34,37 @@ const Publication = () => {
                     <div className={styles.textContainer}>
                         <h3 className={styles.patentHeading}>Application No: 202411064032 A</h3>
                         <p className={styles.patentDescription}>
-                        METHOD FOR DISPENSING SANITARY PADS USING A SMART VENDING MACHINE 
+                            METHOD FOR DISPENSING SANITARY PADS USING A SMART VENDING MACHINE 
                         </p>
+                        <a 
+                            href="https://example.com/patent2" 
+                            className={styles.patentLink} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            View More
+                        </a>
                     </div>
                 </div>
-            </div>
-
+                
                 <div className={styles.projectCard}>
                     <img src={pub3} alt="Patent Image" className={styles.patentImage} />
                     <div className={styles.textContainer}>
-                        <h3 className={styles.patentHeading}>Application No:202411055432</h3>
+                        <h3 className={styles.patentHeading}>Application No: 202411055432</h3>
                         <p className={styles.patentDescription}>
-                        A SOLAR-POWERED THERMAL WATER BOTTLE
+                            A SOLAR-POWERED THERMAL WATER BOTTLE
                         </p>
+                        <a 
+                            href="https://example.com/patent3" 
+                            className={styles.patentLink} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            View More
+                        </a>
                     </div>
                 </div>
-            
-
+            </div>
         </section>
     );
 };

@@ -55,7 +55,7 @@ const Publication = () => {
                             A SOLAR-POWERED THERMAL WATER BOTTLE
                         </p>
                         <a 
-                            href="https://example.com/patent3" 
+                            href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/PatentDetails" 
                             className={styles.patentLink} 
                             target="_blank" 
                             rel="noopener noreferrer"

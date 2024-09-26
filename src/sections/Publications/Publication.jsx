@@ -1,6 +1,7 @@
 import styles from './PublicationStyle.module.css';
 import pub1 from '../../assets/pub1.png';
 import pub2 from '../../assets/pub2.png';
+import pub3 from '../../assets/pub3.png';
 import React from 'react';
 
 const Publication = () => {
@@ -30,7 +31,7 @@ const Publication = () => {
             </div>
 
                 <div className={styles.projectCard}>
-                    <img src={pub2} alt="Patent Image" className={styles.patentImage} />
+                    <img src={pub3} alt="Patent Image" className={styles.patentImage} />
                     <div className={styles.textContainer}>
                         <h3 className={styles.patentHeading}>Application No: 202411064032 A</h3>
                         <p className={styles.patentDescription}>

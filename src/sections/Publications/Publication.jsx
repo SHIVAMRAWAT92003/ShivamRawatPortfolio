@@ -19,7 +19,7 @@ const Publication = () => {
                             Automotive Object Detection WheelChair for Animals
                         </p>
                         <a 
-                            href="https://example.com/patent1" 
+                            href="https://lnkd.in/gXMyeEs6" 
                             className={styles.patentLink} 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const Publication = () => {
                             METHOD FOR DISPENSING SANITARY PADS USING A SMART VENDING MACHINE 
                         </p>
                         <a 
-                            href="https://example.com/patent2" 
+                            href="https://lnkd.in/gXMyeEs6" 
                             className={styles.patentLink} 
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const Publication = () => {
                             A SOLAR-POWERED THERMAL WATER BOTTLE
                         </p>
                         <a 
-                            href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/PatentDetails" 
+                            href="https://lnkd.in/gXMyeEs6" 
                             className={styles.patentLink} 
                             target="_blank" 
                             rel="noopener noreferrer"

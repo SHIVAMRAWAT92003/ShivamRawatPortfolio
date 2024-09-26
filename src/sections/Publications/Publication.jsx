@@ -33,9 +33,9 @@ const Publication = () => {
                 <div className={styles.projectCard}>
                     <img src={pub3} alt="Patent Image" className={styles.patentImage} />
                     <div className={styles.textContainer}>
-                        <h3 className={styles.patentHeading}>Application No: 202411064032 A</h3>
+                        <h3 className={styles.patentHeading}>Application No: 202411055432</h3>
                         <p className={styles.patentDescription}>
-                        METHOD FOR DISPENSING SANITARY PADS USING A SMART VENDING MACHINE 
+                        A SOLAR-POWERED THERMAL WATER BOTTLE
                         </p>
                     </div>
                 </div>
